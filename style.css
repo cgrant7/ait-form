@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+html {
+    height: 100%;
+    background-image: url('adventurephoto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.asterisk {
+    color: red;
+}
+
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+
+.main-form {
+    width: 750px;
+    height: 30%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: left;
+    background-color: rgba(199, 218, 230, 0.774);  
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.32);
+}
+
+input[type=text], input[type=email] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #eee;
+    width: 300px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.submit-button {
+    background-color: #3b79eb;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+textarea {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Roboto', sans-serif;
+}
